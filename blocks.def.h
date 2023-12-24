@@ -2,7 +2,7 @@
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
   {"", "sb-network",  5,  1},
-  {"", "sb-volume",   0,  10},
+  {"", "sb-volume",   0,  11},
   {"", "sb-memory",   5,  2},
   {"", "sb-cpu",      5,  3},
   {"", "sb-temp",     5,  4},
@@ -11,5 +11,5 @@ static const Block blocks[] = {
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
-static char delim[] = " ";
+static char delim[] = "  ";
 static unsigned int delimLen = 1;
